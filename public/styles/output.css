@@ -695,6 +695,21 @@ button {
 
 /* Composite */
 
+header > a {
+  position: absolute;
+  top: auto;
+  display: inline;
+  height: 0.25rem;
+  width: 0.25rem;
+  left: -10000px;
+}
+
+header > a:focus {
+  position: static;
+  height: auto;
+  width: auto;
+}
+
 label p {
   margin: 0px;
   padding: 0px;

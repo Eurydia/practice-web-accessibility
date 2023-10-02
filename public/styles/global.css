@@ -109,6 +109,15 @@ button {
 
 /* Composite */
 
+header > a {
+	@apply absolute w-1 h-1 top-auto inline;
+	left: -10000px;
+}
+
+header > a:focus {
+	@apply w-auto h-auto static;
+}
+
 label p {
 	@apply p-0 m-0;
 }
