@@ -97,7 +97,6 @@ Hydrangeas Around the World: Hydrangeas are not limited to one region or country
 
 Hydrangeas are versatile and beautiful plants that can add a touch of elegance and color to gardens and floral arrangements. Whether for their symbolism, unique flower characteristics, or adaptability, hydrangeas remain a popular choice among gardeners and flower enthusiasts.
 
-
 ## Taking care of the flower
 
 Hydrangeas are popular flowering shrubs known for their beautiful blooms. Proper care is essential to keep hydrangeas healthy and encourage abundant flowering. Here is some general information on how to take care of hydrangeas:
@@ -143,4 +142,3 @@ Pest and Disease Management:
 Keep an eye out for common pests like aphids, spider mites, and powdery mildew. Treat as needed with appropriate insecticides or fungicides.
 
 Proper care can help your hydrangeas thrive and produce beautiful blooms year after year. Remember that specific care requirements may vary depending on the hydrangea variety you have, so it's a good idea to check for any specific guidelines for your particular type of hydrangea.
-

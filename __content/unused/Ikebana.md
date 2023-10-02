@@ -1,8 +1,8 @@
-Ikebana, also known as kadō,  is the Japanese art of flower arrangement. The tradition dates back to Heian period, when floral offerings were made at altars. Later, flower arrangements were instead used to adorn the tokonoma of a traditional Japanese home.
+Ikebana, also known as kadō, is the Japanese art of flower arrangement. The tradition dates back to Heian period, when floral offerings were made at altars. Later, flower arrangements were instead used to adorn the tokonoma of a traditional Japanese home.
 
 Ikebana reached its first zenith in the 16th century under the influence of Buddhist tea masters and has grown over the centuries, with numerous distinct schools extant today.
 
-Ikebana is counted as one of the three classical Japanese arts of refinement, along with kōdō for incense appreciation and chadō for tea and the tea ceremony. 
+Ikebana is counted as one of the three classical Japanese arts of refinement, along with kōdō for incense appreciation and chadō for tea and the tea ceremony.
 
 ## Theory
 
@@ -20,4 +20,4 @@ The seasons are also expressed in flower arrangements, with flowers grouped diff
 
 The spiritual aspect of ikebana is considered very important to its practitioners. Some practitioners feel silence is needed while constructing a flower arrangement, while others feel this is not necessary, though both sides commonly agree that flower arranging is a time to appreciate aspects of nature commonly overlooked in daily life. It is believed that practice of flower arranging leads a person to become more patient and tolerant of differences in nature and in life, providing relaxation in mind, body and soul, and allowing a person to identify with beauty in all art forms.
 
-Plants play an important role in the Japanese Shinto religion. Yorishiro are objects that divine spirits are summoned to. Evergreen plants such as kadomatsu are a traditional decoration of the New Year placed in pairs in front of homes to welcome ancestral spirits or kami of the harvest.[4] 
+Plants play an important role in the Japanese Shinto religion. Yorishiro are objects that divine spirits are summoned to. Evergreen plants such as kadomatsu are a traditional decoration of the New Year placed in pairs in front of homes to welcome ancestral spirits or kami of the harvest.[4]

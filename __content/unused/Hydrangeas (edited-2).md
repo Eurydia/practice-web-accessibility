@@ -30,7 +30,7 @@ In the opulent days of the Victorian era, the language of flowers, or floriograp
 
 The symbolism of hydrangeas weaves a rich tapestry across cultures and eras. In the land of the rising sun, Japan, it evokes heartfelt emotions and gratitude, often tendered as a sincere token of appreciation.
 
-**Blue Hydrangeas** 
+**Blue Hydrangeas**
 
 These azure blossoms symbolize understanding and mutual empathy. They are given as a gesture of consolation during times of grief or apology, conveying a message of heartfelt understanding and forgiveness.
 
@@ -122,7 +122,7 @@ If the art of floral arrangement beckons to your soul, uncover the secrets of cr
 
 Seasonal Elegance
 
-Embrace the enduring versatility of hydrangeas as they grace our gardens and homes throughout the seasons, from their summer splendor to their role in adorning festive holiday decor. 
+Embrace the enduring versatility of hydrangeas as they grace our gardens and homes throughout the seasons, from their summer splendor to their role in adorning festive holiday decor.
 
 ## An Everlasting Elegance
 
