@@ -1,0 +1,15 @@
+main {
+	@apply w-6/12 mx-auto;
+}
+
+main footer {
+	@apply w-full bg-slate-200 m-0;
+}
+
+main figure {
+	@apply mx-auto w-10/12;
+}
+
+main figure iframe[src*="youtube"] {
+	@apply w-full aspect-video;
+}

@@ -1,0 +1,24 @@
+body header > a {
+	@apply absolute w-1 h-1 top-auto inline;
+	left: -10000px;
+}
+
+body header > a:focus {
+	@apply w-auto h-auto static;
+}
+
+body header nav {
+	background-color: var(--color-primary);
+}
+
+body header figure {
+	@apply w-full;
+}
+
+body header figure img {
+	@apply w-full h-60 object-cover;
+}
+
+body header figure figcaption {
+	@apply w-6/12 mx-auto;
+}
