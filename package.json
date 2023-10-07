@@ -9,7 +9,6 @@
   "author": "Eurydia",
   "license": "MIT",
   "devDependencies": {
-    "postcss-import": "^15.1.0",
     "prettier": "3.0.3",
     "tailwindcss": "^3.3.3"
   }
