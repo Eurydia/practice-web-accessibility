@@ -11,13 +11,9 @@ html {
 	--color-primary: hsl(0, 0%, 100%);
 	--color-text: hsl(0, 0%, 0%);
 	--color-background: hsl(0, 0%, 100%);
-	--color-text-anchor: hsl(214, 82%, 73%);
-	--color-text-anchor-hover: hsl(282, 56%, 58%);
-	--color-text-anchor-visited: hsl(
-		214,
-		100%,
-		50%
-	);
+	--color-text-anchor: #008fd2;
+	--color-text-anchor-hover: rgb(171, 71, 188);
+	--color-text-anchor-visited: #001aff;
 	@apply font-serif sm:font-sans;
 }
 
@@ -29,9 +25,9 @@ html[data-contrast="high"] {
 	--color-primary: rgb(0, 0, 0);
 	--color-text: rgba(255, 255, 255, 0.85);
 	--color-background: rgb(0, 0, 0);
-	--color-text-anchor: rgb(255, 207, 168);
+	--color-text-anchor: #ff8000;
 	--color-text-anchor-hover: rgb(122, 255, 82);
-	--color-text-anchor-visited: rgb(255, 151, 66);
+	--color-text-anchor-visited: #ffc671;
 }
 
 body {
@@ -48,17 +44,21 @@ body > header > a:focus {
 	@apply w-auto h-auto static;
 }
 
+body > header {
+	@apply w-full;
+}
+
 body > header > nav {
 	background-color: var(--color-primary);
-	@apply p-4 w-10/12 sm:w-full;
+	@apply w-full py-4;
 }
 
 body > header > nav > ul {
-	@apply w-full list-none list-inside flex flex-col sm:flex-row;
+	@apply mx-auto list-none list-inside flex flex-col w-10/12 md:w-full md:flex-row;
 }
 
 body > header > nav > ul li {
-	@apply flex-grow flex justify-start sm:justify-center;
+	@apply flex-grow flex justify-start md:justify-center;
 }
 
 body > header figure {
