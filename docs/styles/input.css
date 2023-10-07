@@ -187,3 +187,38 @@ button:hover {
 p {
 	@apply py-2 max-w-prose;
 }
+
+form {
+	@apply block my-4 w-full md:w-8/12;
+}
+
+form > div {
+	@apply my-4 block;
+}
+
+label {
+	@apply py-1 block;
+}
+
+input[type="email"],
+textarea {
+	border-color: var(--color-text);
+	@apply block border w-full;
+}
+
+fieldset {
+	border-color: var(--color-text);
+	@apply w-full my-4;
+}
+
+fieldset div {
+	@apply flex px-4 py-2;
+}
+
+fieldset label {
+	@apply flex-grow p-0 pl-4;
+}
+
+form button {
+	@apply inline-block;
+}

@@ -832,3 +832,61 @@ p {
   padding-top: 0.5rem;
   padding-bottom: 0.5rem;
 }
+
+form {
+  margin-top: 1rem;
+  margin-bottom: 1rem;
+  display: block;
+  width: 100%;
+}
+
+@media (min-width: 768px) {
+  form {
+    width: 66.666667%;
+  }
+}
+
+form > div {
+  margin-top: 1rem;
+  margin-bottom: 1rem;
+  display: block;
+}
+
+label {
+  display: block;
+  padding-top: 0.25rem;
+  padding-bottom: 0.25rem;
+}
+
+input[type="email"],
+textarea {
+  border-color: var(--color-text);
+  display: block;
+  width: 100%;
+  border-width: 1px;
+}
+
+fieldset {
+  border-color: var(--color-text);
+  margin-top: 1rem;
+  margin-bottom: 1rem;
+  width: 100%;
+}
+
+fieldset div {
+  display: flex;
+  padding-left: 1rem;
+  padding-right: 1rem;
+  padding-top: 0.5rem;
+  padding-bottom: 0.5rem;
+}
+
+fieldset label {
+  flex-grow: 1;
+  padding: 0px;
+  padding-left: 1rem;
+}
+
+form button {
+  display: inline-block;
+}
