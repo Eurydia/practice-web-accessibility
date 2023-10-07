@@ -50,11 +50,11 @@ body > header > a:focus {
 
 body > header > nav {
 	background-color: var(--color-primary);
-	@apply p-4;
+	@apply p-4 w-10/12 sm:w-full;
 }
 
 body > header > nav > ul {
-	@apply w-full list-none list-inside flex flex-col md:flex-row;
+	@apply w-full list-none list-inside flex flex-col sm:flex-row;
 }
 
 body > header > nav > ul li {
