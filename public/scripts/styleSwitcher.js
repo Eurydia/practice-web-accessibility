@@ -65,8 +65,8 @@ const switchContrast = () => {
 		"#button_switch_contrast",
 		`${
 			nextContrastMode === "default"
-				? "Enable"
-				: "Disable"
+				? "Use"
+				: "Stop Using"
 		} High Contrast Mode`,
 	);
 };
@@ -101,8 +101,8 @@ const switchFontSize = () => {
 		"#button_switch_font_size",
 		`${
 			nextFontSizeMode === "default"
-				? "Enable"
-				: "Disable"
+				? "Use"
+				: "Stop Using"
 		} Large Text Mode`,
 	);
 };
@@ -126,8 +126,8 @@ const loadSettings = () => {
 		"#button_switch_contrast",
 		`${
 			contrastMode === "default"
-				? "Enable"
-				: "Disable"
+				? "Use"
+				: "Stop Using"
 		} High Contrast Mode`,
 	);
 
@@ -146,8 +146,8 @@ const loadSettings = () => {
 		"#button_switch_font_size",
 		`${
 			fontSizeMode === "default"
-				? "Enable"
-				: "Disable"
+				? "Use"
+				: "Stop Using"
 		} Large Text Mode`,
 	);
 };

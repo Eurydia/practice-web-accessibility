@@ -1,0 +1,193 @@
+@import "tailwindcss/base";
+@import "tailwindcss/utilities";
+@import "tailwindcss/components";
+
+/* @import "./header.css";
+@import "./main.css";
+@import "./footer.css"; */
+
+html {
+	font-size: medium;
+	--color-primary: hsl(0, 0%, 100%);
+	--color-text: hsl(0, 0%, 0%);
+	--color-background: hsl(0, 0%, 100%);
+	--color-text-anchor: hsl(214, 82%, 73%);
+	--color-text-anchor-hover: hsl(282, 56%, 58%);
+	--color-text-anchor-visited: hsl(
+		214,
+		100%,
+		50%
+	);
+	@apply font-serif sm:font-sans;
+}
+
+html[data-font-size="large"] {
+	font-size: x-large;
+}
+
+html[data-contrast="high"] {
+	--color-primary: rgb(0, 0, 0);
+	--color-text: rgba(255, 255, 255, 0.85);
+	--color-background: rgb(0, 0, 0);
+	--color-text-anchor: rgb(255, 207, 168);
+	--color-text-anchor-hover: rgb(122, 255, 82);
+	--color-text-anchor-visited: rgb(255, 151, 66);
+}
+
+body {
+	background-color: var(--color-background);
+	color: var(--color-text);
+}
+
+body > header > a {
+	@apply absolute w-1 h-1 top-auto inline;
+	left: -10000px;
+}
+
+body > header > a:focus {
+	@apply w-auto h-auto static;
+}
+
+body > header > nav {
+	background-color: var(--color-primary);
+	@apply p-4;
+}
+
+body > header > nav > ul {
+	@apply w-full list-none list-inside flex flex-col md:flex-row;
+}
+
+body > header > nav > ul li {
+	@apply flex-grow flex justify-start sm:justify-center;
+}
+
+body > header figure {
+	@apply w-full;
+}
+
+body > header figure img {
+	@apply w-full h-60 object-cover;
+}
+
+body > header figure figcaption {
+	@apply mx-auto w-10/12 md:w-8/12 lg:w-6/12;
+}
+
+@media print {
+	main {
+		@apply w-10/12;
+	}
+	main button {
+		@apply hidden;
+	}
+	footer {
+		@apply w-10/12;
+	}
+}
+
+main {
+	@apply mx-auto w-10/12 md:w-8/12 lg:w-6/12;
+}
+
+figure {
+	@apply mx-auto w-10/12;
+}
+
+figure iframe[src*="youtube"] {
+	@apply w-full aspect-video;
+}
+
+footer {
+	@apply mx-auto my-4 pt-2 border-t  w-10/12 md:w-8/12 lg:w-6/12;
+}
+
+table {
+	@apply table-auto text-left;
+}
+
+th,
+td {
+	border-color: var(--color-text);
+	@apply py-2 px-4 border;
+}
+
+caption {
+	@apply py-2;
+}
+
+caption details {
+	@apply text-left;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+	@apply font-bold capitalize py-2 my-2;
+}
+
+h2,
+h3,
+h4,
+h5,
+h6 {
+	@apply border-b;
+}
+
+h1 {
+	@apply text-3xl;
+}
+
+h2 {
+	@apply text-2xl;
+}
+
+h3 {
+	@apply text-xl;
+}
+
+a {
+	@apply underline;
+	color: var(--color-text-anchor);
+}
+
+a:hover {
+	color: var(--color-text-anchor-hover);
+}
+
+a:visited {
+	color: var(--color-text-anchor-visited);
+}
+
+a:visited:hover {
+	color: var(--color-text-anchor-hover);
+}
+
+blockquote {
+	@apply font-mono;
+}
+
+blockquote::before,
+blockquote::after {
+	content: '"';
+	background-image: linear-gradient(
+		var(--color-background),
+		var(--color-background)
+	);
+}
+
+button {
+	border-color: var(--color-text);
+	@apply my-2 px-4 py-1 block border;
+}
+
+button:hover {
+	color: var(--color-background);
+	background-color: var(--color-text);
+}
+
+p {
+	@apply py-2 max-w-prose;
+}
