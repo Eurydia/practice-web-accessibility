@@ -1,8 +1,5 @@
 <!doctype html>
-<html
-	lang="en"
-	data-contrast="high"
->
+<html lang="en">
 	<head>
 		<meta charset="UTF-8" />
 		<meta
@@ -14,6 +11,10 @@
 			href="./styles/global.css"
 			rel="stylesheet"
 		/>
+		<script
+			src="./scripts/styleSwitcher.js"
+			defer
+		></script>
 		<style>
 			body header figure img {
 				object-position: 0 10%;
@@ -30,28 +31,32 @@
 						<a
 							href="./slimes.html"
 							hreflang="en"
-							>SLIMES
+						>
+							SLIMES
 						</a>
 					</li>
 					<li>
 						<a
 							href="./food.html"
 							hreflang="en"
-							>FOOD</a
 						>
+							FOOD
+						</a>
 					</li>
 					<li>
 						<a
 							href="./locations.html"
 							hreflang="en"
-							>LOCATIONS</a
 						>
+							LOCATIONS
+						</a>
 					</li>
 					<li>
 						<a
 							href="./questionnaire.html"
 							hreflang="en"
-							>QUESTIONNAIRE</a
+						>
+							QUESTIONNAIRE</a
 						>
 					</li>
 				</ul>
@@ -82,44 +87,18 @@
 							4 October 2023
 						</time>
 					</p>
-					<section>
-						<h2>Style adjustment</h2>
-						<form>
-							<fieldset
-								id="font_size_fieldset"
-								onchange="console.log(this.EventTarget);"
-							>
-								<legend>Font size</legend>
-								<label>
-									<input
-										id="font_size_fieldset_base"
-										type="radio"
-										name="font_size"
-										value="base"
-									/>
-									Base
-								</label>
-								<label>
-									<input
-										id="font_size_fieldset_large"
-										type="radio"
-										name="font_size"
-										value="large"
-									/>
-									Large
-								</label>
-								<label>
-									<input
-										id="font_size_fieldset_extra_lage"
-										type="radio"
-										name="font_size"
-										value="extra_large"
-									/>
-									Extra large
-								</label>
-							</fieldset>
-						</form>
-					</section>
+					<button
+						onclick="switchContrast();"
+						id="button_switch_contrast"
+					>
+						Use high contrast style
+					</button>
+					<button
+						onclick="switchFontSize();"
+						id="button_switch_font_size"
+					>
+						Use large font
+					</button>
 				</header>
 				<section>
 					<h2>Introduction to Slime Rancher</h2>
@@ -352,22 +331,4 @@
 			</p>
 		</footer>
 	</body>
-	<script>
-		const optionsFieldset =
-			document.getElementById(
-				"font_size_fieldset",
-			);
-
-		optionsFieldset.addEventListener(
-			"change",
-			function (event) {
-				document
-					.querySelector("html")
-					.setAttribute(
-						"data-font-size",
-						event.target.value,
-					);
-			},
-		);
-	</script>
 </html>

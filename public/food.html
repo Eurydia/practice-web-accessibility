@@ -6,7 +6,7 @@
 			name="viewport"
 			content="width=device-width, initial-scale=1.0"
 		/>
-		<title>A guide to Slime Rancher: FOOD</title>
+		<title>A Guide To Slime Rancher: FOOD</title>
 		<link
 			href="styles/global.css"
 			rel="stylesheet"
@@ -15,6 +15,10 @@
 			href="styles/food.css"
 			rel="stylesheet"
 		/>
+		<script
+			src="./scripts/styleSwitcher.js"
+			defer
+		></script>
 	</head>
 	<body>
 		<header>
@@ -81,6 +85,24 @@
 						&gt; FOOD
 					</nav>
 					<h1>Food</h1>
+					<p>
+						Last updated:
+						<time datetime="2023-10-04T20:00:00">
+							4 October 2023
+						</time>
+					</p>
+					<button
+						onclick="switchContrast();"
+						id="button_switch_contrast"
+					>
+						Use high contrast style
+					</button>
+					<button
+						onclick="switchFontSize();"
+						id="button_switch_font_size"
+					>
+						Use large font
+					</button>
 				</section>
 				<section>
 					<h2>Hunger Management</h2>

@@ -7,16 +7,16 @@
 			content="width=device-width, initial-scale=1.0"
 		/>
 		<title>
-			A guide to Slime Rancher: QUESTIONNARE
+			A Guide To Slime Rancher: QUESTIONNARE
 		</title>
 		<link
 			href="styles/global.css"
 			rel="stylesheet"
 		/>
-		<link
-			href="styles/questionnaire.css"
-			rel="stylesheet"
-		/>
+		<script
+			src="./scripts/styleSwitcher.js"
+			defer
+		></script>
 	</head>
 	<body>
 		<header>
@@ -81,6 +81,24 @@
 					&gt; QUESTIONNAIRE
 				</nav>
 				<h1>Questionnaire</h1>
+				<p>
+					Last updated:
+					<time datetime="2023-10-04T20:00:00">
+						4 October 2023
+					</time>
+				</p>
+				<button
+					onclick="switchContrast();"
+					id="button_switch_contrast"
+				>
+					Use high contrast style
+				</button>
+				<button
+					onclick="switchFontSize();"
+					id="button_switch_font_size"
+				>
+					Use large font
+				</button>
 			</section>
 			<section>
 				<h2>Help us improve!</h2>
@@ -120,19 +138,21 @@
 					and let's work together to make your
 					Slime Rancher experience extraordinary!
 				</p>
-				<form>
+				<form
+					id="questionnaire"
+					method="post"
+					action="mailto:johndoe@email.com"
+				>
 					<label>
-						<p>Email</p>
+						Email
 						<input
 							type="email"
 							autocomplete="email"
 						/>
 					</label>
 					<label>
-						<p>
-							What else do you want to see on this
-							guide?
-						</p>
+						What else do you want to see on this
+						guide?
 						<textarea
 							placeholder="I wish there is a page about ..."
 						></textarea>
@@ -149,7 +169,7 @@
 								name="satisfaction"
 								value="5"
 							/>
-							<p>Very Satisfied</p>
+							Very Satisfied
 						</label>
 						<label>
 							<input
@@ -158,7 +178,7 @@
 								name="satisfaction"
 								value="4"
 							/>
-							<p>Satisfied</p>
+							Satisfied
 						</label>
 						<label>
 							<input
@@ -166,7 +186,7 @@
 								name="satisfaction"
 								value="3"
 							/>
-							<p>Unsatisfied</p>
+							Unsatisfied
 						</label>
 						<label>
 							<input
@@ -174,31 +194,38 @@
 								name="satisfaction"
 								value="2"
 							/>
-							<p>Very unsatisfied</p>
+							Very unsatisfied
 						</label>
 					</fieldset>
 					<fieldset>
 						<legend>News and updates</legend>
 						<label>
 							<input type="checkbox" />
-							<p>
-								I want receive news and updates on
-								the guide.
-							</p>
+							I want receive news and updates on
+							the guide.
 						</label>
 						<label>
 							<input type="checkbox" />
-							<p>
-								I want to participate in surveys
-								to improve the guide.
-							</p>
+							I want to participate in surveys to
+							improve the guide.
 						</label>
 					</fieldset>
 					<button type="submit">Submit</button>
-					<button type="reset">Reset</button>
+					<button
+						type="reset"
+						onclick="return confirmReset();"
+					>
+						Reset
+					</button>
+					<script>
+						function confirmReset() {
+							return window.confirm(
+								"Reset every field in the form?",
+							);
+						}
+					</script>
 				</form>
 			</section>
-
 			<a
 				href="#main_content"
 				target="_top"
