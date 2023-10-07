@@ -102,21 +102,17 @@ footer {
 }
 
 table {
-	@apply table-auto text-left;
+	@apply table-auto;
 }
 
 th,
 td {
 	border-color: var(--color-text);
-	@apply py-2 px-4 border;
+	@apply py-2 px-4 border text-left;
 }
 
 caption {
-	@apply py-2;
-}
-
-caption details {
-	@apply text-left;
+	@apply py-2 text-left;
 }
 
 h1,
