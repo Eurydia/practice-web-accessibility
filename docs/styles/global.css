@@ -10,19 +10,19 @@
 *,
 ::before,
 ::after {
-  box-sizing: border-box;
-  /* 1 */
-  border-width: 0;
-  /* 2 */
-  border-style: solid;
-  /* 2 */
-  border-color: #e5e7eb;
-  /* 2 */
+	box-sizing: border-box;
+	/* 1 */
+	border-width: 0;
+	/* 2 */
+	border-style: solid;
+	/* 2 */
+	border-color: #e5e7eb;
+	/* 2 */
 }
 
 ::before,
 ::after {
-  --tw-content: '';
+	--tw-content: "";
 }
 
 /*
@@ -35,21 +35,35 @@
 */
 
 html {
-  line-height: 1.5;
-  /* 1 */
-  -webkit-text-size-adjust: 100%;
-  /* 2 */
-  -moz-tab-size: 4;
-  /* 3 */
-  -o-tab-size: 4;
-     tab-size: 4;
-  /* 3 */
-  font-family: ui-sans-serif, system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
-  /* 4 */
-  font-feature-settings: normal;
-  /* 5 */
-  font-variation-settings: normal;
-  /* 6 */
+	line-height: 1.5;
+	/* 1 */
+	-webkit-text-size-adjust: 100%;
+	/* 2 */
+	-moz-tab-size: 4;
+	/* 3 */
+	-o-tab-size: 4;
+	tab-size: 4;
+	/* 3 */
+	font-family:
+		ui-sans-serif,
+		system-ui,
+		-apple-system,
+		BlinkMacSystemFont,
+		"Segoe UI",
+		Roboto,
+		"Helvetica Neue",
+		Arial,
+		"Noto Sans",
+		sans-serif,
+		"Apple Color Emoji",
+		"Segoe UI Emoji",
+		"Segoe UI Symbol",
+		"Noto Color Emoji";
+	/* 4 */
+	font-feature-settings: normal;
+	/* 5 */
+	font-variation-settings: normal;
+	/* 6 */
 }
 
 /*
@@ -58,10 +72,10 @@ html {
 */
 
 body {
-  margin: 0;
-  /* 1 */
-  line-height: inherit;
-  /* 2 */
+	margin: 0;
+	/* 1 */
+	line-height: inherit;
+	/* 2 */
 }
 
 /*
@@ -71,12 +85,12 @@ body {
 */
 
 hr {
-  height: 0;
-  /* 1 */
-  color: inherit;
-  /* 2 */
-  border-top-width: 1px;
-  /* 3 */
+	height: 0;
+	/* 1 */
+	color: inherit;
+	/* 2 */
+	border-top-width: 1px;
+	/* 3 */
 }
 
 /*
@@ -84,8 +98,8 @@ Add the correct text decoration in Chrome, Edge, and Safari.
 */
 
 abbr:where([title]) {
-  -webkit-text-decoration: underline dotted;
-          text-decoration: underline dotted;
+	-webkit-text-decoration: underline dotted;
+	text-decoration: underline dotted;
 }
 
 /*
@@ -98,8 +112,8 @@ h3,
 h4,
 h5,
 h6 {
-  font-size: inherit;
-  font-weight: inherit;
+	font-size: inherit;
+	font-weight: inherit;
 }
 
 /*
@@ -107,8 +121,8 @@ Reset links to optimize for opt-in styling instead of opt-out.
 */
 
 a {
-  color: inherit;
-  text-decoration: inherit;
+	color: inherit;
+	text-decoration: inherit;
 }
 
 /*
@@ -117,7 +131,7 @@ Add the correct font weight in Edge and Safari.
 
 b,
 strong {
-  font-weight: bolder;
+	font-weight: bolder;
 }
 
 /*
@@ -129,10 +143,12 @@ code,
 kbd,
 samp,
 pre {
-  font-family: ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, "Liberation Mono", "Courier New", monospace;
-  /* 1 */
-  font-size: 1em;
-  /* 2 */
+	font-family: ui-monospace, SFMono-Regular, Menlo,
+		Monaco, Consolas, "Liberation Mono",
+		"Courier New", monospace;
+	/* 1 */
+	font-size: 1em;
+	/* 2 */
 }
 
 /*
@@ -140,7 +156,7 @@ Add the correct font size in all browsers.
 */
 
 small {
-  font-size: 80%;
+	font-size: 80%;
 }
 
 /*
@@ -149,18 +165,18 @@ Prevent `sub` and `sup` elements from affecting the line height in all browsers.
 
 sub,
 sup {
-  font-size: 75%;
-  line-height: 0;
-  position: relative;
-  vertical-align: baseline;
+	font-size: 75%;
+	line-height: 0;
+	position: relative;
+	vertical-align: baseline;
 }
 
 sub {
-  bottom: -0.25em;
+	bottom: -0.25em;
 }
 
 sup {
-  top: -0.5em;
+	top: -0.5em;
 }
 
 /*
@@ -170,12 +186,12 @@ sup {
 */
 
 table {
-  text-indent: 0;
-  /* 1 */
-  border-color: inherit;
-  /* 2 */
-  border-collapse: collapse;
-  /* 3 */
+	text-indent: 0;
+	/* 1 */
+	border-color: inherit;
+	/* 2 */
+	border-collapse: collapse;
+	/* 3 */
 }
 
 /*
@@ -189,24 +205,24 @@ input,
 optgroup,
 select,
 textarea {
-  font-family: inherit;
-  /* 1 */
-  font-feature-settings: inherit;
-  /* 1 */
-  font-variation-settings: inherit;
-  /* 1 */
-  font-size: 100%;
-  /* 1 */
-  font-weight: inherit;
-  /* 1 */
-  line-height: inherit;
-  /* 1 */
-  color: inherit;
-  /* 1 */
-  margin: 0;
-  /* 2 */
-  padding: 0;
-  /* 3 */
+	font-family: inherit;
+	/* 1 */
+	font-feature-settings: inherit;
+	/* 1 */
+	font-variation-settings: inherit;
+	/* 1 */
+	font-size: 100%;
+	/* 1 */
+	font-weight: inherit;
+	/* 1 */
+	line-height: inherit;
+	/* 1 */
+	color: inherit;
+	/* 1 */
+	margin: 0;
+	/* 2 */
+	padding: 0;
+	/* 3 */
 }
 
 /*
@@ -215,7 +231,7 @@ Remove the inheritance of text transform in Edge and Firefox.
 
 button,
 select {
-  text-transform: none;
+	text-transform: none;
 }
 
 /*
@@ -224,15 +240,15 @@ select {
 */
 
 button,
-[type='button'],
-[type='reset'],
-[type='submit'] {
-  -webkit-appearance: button;
-  /* 1 */
-  background-color: transparent;
-  /* 2 */
-  background-image: none;
-  /* 2 */
+[type="button"],
+[type="reset"],
+[type="submit"] {
+	-webkit-appearance: button;
+	/* 1 */
+	background-color: transparent;
+	/* 2 */
+	background-image: none;
+	/* 2 */
 }
 
 /*
@@ -240,7 +256,7 @@ Use the modern Firefox focus style for all focusable elements.
 */
 
 :-moz-focusring {
-  outline: auto;
+	outline: auto;
 }
 
 /*
@@ -248,7 +264,7 @@ Remove the additional `:invalid` styles in Firefox. (https://github.com/mozilla/
 */
 
 :-moz-ui-invalid {
-  box-shadow: none;
+	box-shadow: none;
 }
 
 /*
@@ -256,7 +272,7 @@ Add the correct vertical alignment in Chrome and Firefox.
 */
 
 progress {
-  vertical-align: baseline;
+	vertical-align: baseline;
 }
 
 /*
@@ -265,7 +281,7 @@ Correct the cursor style of increment and decrement buttons in Safari.
 
 ::-webkit-inner-spin-button,
 ::-webkit-outer-spin-button {
-  height: auto;
+	height: auto;
 }
 
 /*
@@ -273,11 +289,11 @@ Correct the cursor style of increment and decrement buttons in Safari.
 2. Correct the outline style in Safari.
 */
 
-[type='search'] {
-  -webkit-appearance: textfield;
-  /* 1 */
-  outline-offset: -2px;
-  /* 2 */
+[type="search"] {
+	-webkit-appearance: textfield;
+	/* 1 */
+	outline-offset: -2px;
+	/* 2 */
 }
 
 /*
@@ -285,7 +301,7 @@ Remove the inner padding in Chrome and Safari on macOS.
 */
 
 ::-webkit-search-decoration {
-  -webkit-appearance: none;
+	-webkit-appearance: none;
 }
 
 /*
@@ -294,10 +310,10 @@ Remove the inner padding in Chrome and Safari on macOS.
 */
 
 ::-webkit-file-upload-button {
-  -webkit-appearance: button;
-  /* 1 */
-  font: inherit;
-  /* 2 */
+	-webkit-appearance: button;
+	/* 1 */
+	font: inherit;
+	/* 2 */
 }
 
 /*
@@ -305,7 +321,7 @@ Add the correct display in Chrome and Safari.
 */
 
 summary {
-  display: list-item;
+	display: list-item;
 }
 
 /*
@@ -325,24 +341,24 @@ hr,
 figure,
 p,
 pre {
-  margin: 0;
+	margin: 0;
 }
 
 fieldset {
-  margin: 0;
-  padding: 0;
+	margin: 0;
+	padding: 0;
 }
 
 legend {
-  padding: 0;
+	padding: 0;
 }
 
 ol,
 ul,
 menu {
-  list-style: none;
-  margin: 0;
-  padding: 0;
+	list-style: none;
+	margin: 0;
+	padding: 0;
 }
 
 /*
@@ -350,7 +366,7 @@ Reset default styling for dialogs.
 */
 
 dialog {
-  padding: 0;
+	padding: 0;
 }
 
 /*
@@ -358,7 +374,7 @@ Prevent resizing textareas horizontally by default.
 */
 
 textarea {
-  resize: vertical;
+	resize: vertical;
 }
 
 /*
@@ -366,19 +382,20 @@ textarea {
 2. Set the default placeholder color to the user's configured gray 400 color.
 */
 
-input::-moz-placeholder, textarea::-moz-placeholder {
-  opacity: 1;
-  /* 1 */
-  color: #9ca3af;
-  /* 2 */
+input::-moz-placeholder,
+textarea::-moz-placeholder {
+	opacity: 1;
+	/* 1 */
+	color: #9ca3af;
+	/* 2 */
 }
 
 input::placeholder,
 textarea::placeholder {
-  opacity: 1;
-  /* 1 */
-  color: #9ca3af;
-  /* 2 */
+	opacity: 1;
+	/* 1 */
+	color: #9ca3af;
+	/* 2 */
 }
 
 /*
@@ -387,7 +404,7 @@ Set the default cursor for buttons.
 
 button,
 [role="button"] {
-  cursor: pointer;
+	cursor: pointer;
 }
 
 /*
@@ -395,7 +412,7 @@ Make sure disabled buttons don't get the pointer cursor.
 */
 
 :disabled {
-  cursor: default;
+	cursor: default;
 }
 
 /*
@@ -412,10 +429,10 @@ audio,
 iframe,
 embed,
 object {
-  display: block;
-  /* 1 */
-  vertical-align: middle;
-  /* 2 */
+	display: block;
+	/* 1 */
+	vertical-align: middle;
+	/* 2 */
 }
 
 /*
@@ -424,320 +441,235 @@ Constrain images and videos to the parent width and preserve their intrinsic asp
 
 img,
 video {
-  max-width: 100%;
-  height: auto;
+	max-width: 100%;
+	height: auto;
 }
 
 /* Make elements with the HTML hidden attribute stay hidden by default */
 
 [hidden] {
-  display: none;
-}
-
-*, ::before, ::after {
-  --tw-border-spacing-x: 0;
-  --tw-border-spacing-y: 0;
-  --tw-translate-x: 0;
-  --tw-translate-y: 0;
-  --tw-rotate: 0;
-  --tw-skew-x: 0;
-  --tw-skew-y: 0;
-  --tw-scale-x: 1;
-  --tw-scale-y: 1;
-  --tw-pan-x:  ;
-  --tw-pan-y:  ;
-  --tw-pinch-zoom:  ;
-  --tw-scroll-snap-strictness: proximity;
-  --tw-gradient-from-position:  ;
-  --tw-gradient-via-position:  ;
-  --tw-gradient-to-position:  ;
-  --tw-ordinal:  ;
-  --tw-slashed-zero:  ;
-  --tw-numeric-figure:  ;
-  --tw-numeric-spacing:  ;
-  --tw-numeric-fraction:  ;
-  --tw-ring-inset:  ;
-  --tw-ring-offset-width: 0px;
-  --tw-ring-offset-color: #fff;
-  --tw-ring-color: rgb(59 130 246 / 0.5);
-  --tw-ring-offset-shadow: 0 0 #0000;
-  --tw-ring-shadow: 0 0 #0000;
-  --tw-shadow: 0 0 #0000;
-  --tw-shadow-colored: 0 0 #0000;
-  --tw-blur:  ;
-  --tw-brightness:  ;
-  --tw-contrast:  ;
-  --tw-grayscale:  ;
-  --tw-hue-rotate:  ;
-  --tw-invert:  ;
-  --tw-saturate:  ;
-  --tw-sepia:  ;
-  --tw-drop-shadow:  ;
-  --tw-backdrop-blur:  ;
-  --tw-backdrop-brightness:  ;
-  --tw-backdrop-contrast:  ;
-  --tw-backdrop-grayscale:  ;
-  --tw-backdrop-hue-rotate:  ;
-  --tw-backdrop-invert:  ;
-  --tw-backdrop-opacity:  ;
-  --tw-backdrop-saturate:  ;
-  --tw-backdrop-sepia:  ;
-}
-
-::backdrop {
-  --tw-border-spacing-x: 0;
-  --tw-border-spacing-y: 0;
-  --tw-translate-x: 0;
-  --tw-translate-y: 0;
-  --tw-rotate: 0;
-  --tw-skew-x: 0;
-  --tw-skew-y: 0;
-  --tw-scale-x: 1;
-  --tw-scale-y: 1;
-  --tw-pan-x:  ;
-  --tw-pan-y:  ;
-  --tw-pinch-zoom:  ;
-  --tw-scroll-snap-strictness: proximity;
-  --tw-gradient-from-position:  ;
-  --tw-gradient-via-position:  ;
-  --tw-gradient-to-position:  ;
-  --tw-ordinal:  ;
-  --tw-slashed-zero:  ;
-  --tw-numeric-figure:  ;
-  --tw-numeric-spacing:  ;
-  --tw-numeric-fraction:  ;
-  --tw-ring-inset:  ;
-  --tw-ring-offset-width: 0px;
-  --tw-ring-offset-color: #fff;
-  --tw-ring-color: rgb(59 130 246 / 0.5);
-  --tw-ring-offset-shadow: 0 0 #0000;
-  --tw-ring-shadow: 0 0 #0000;
-  --tw-shadow: 0 0 #0000;
-  --tw-shadow-colored: 0 0 #0000;
-  --tw-blur:  ;
-  --tw-brightness:  ;
-  --tw-contrast:  ;
-  --tw-grayscale:  ;
-  --tw-hue-rotate:  ;
-  --tw-invert:  ;
-  --tw-saturate:  ;
-  --tw-sepia:  ;
-  --tw-drop-shadow:  ;
-  --tw-backdrop-blur:  ;
-  --tw-backdrop-brightness:  ;
-  --tw-backdrop-contrast:  ;
-  --tw-backdrop-grayscale:  ;
-  --tw-backdrop-hue-rotate:  ;
-  --tw-backdrop-invert:  ;
-  --tw-backdrop-opacity:  ;
-  --tw-backdrop-saturate:  ;
-  --tw-backdrop-sepia:  ;
+	display: none;
 }
 
 html {
-  font-size: medium;
-  --color-primary: hsl(0, 0%, 100%);
-  --color-text: hsl(0, 0%, 0%);
-  --color-background: hsl(0, 0%, 100%);
-  --color-text-anchor: #6cccf9;
-  --color-text-anchor-hover: rgb(206, 91, 226);
-  --color-text-anchor-visited: #ff00b3;
-  font-family: ui-serif, Georgia, Cambria, "Times New Roman", Times, serif;
+	font-size: medium;
+	--color-primary: hsl(0, 0%, 100%);
+	--color-text: hsl(0, 0%, 0%);
+	--color-background: hsl(0, 0%, 100%);
+	--color-text-anchor: hsl(199, 92%, 70%);
+	--color-text-anchor-hover: #9b59b6;
+	--color-text-anchor-visited: #205d86;
+	font-family: ui-serif, Georgia, Cambria,
+		"Times New Roman", Times, serif;
 }
 
 @media (min-width: 640px) {
-  html {
-    font-family: ui-sans-serif, system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
-  }
+	html {
+		font-family:
+			ui-sans-serif,
+			system-ui,
+			-apple-system,
+			BlinkMacSystemFont,
+			"Segoe UI",
+			Roboto,
+			"Helvetica Neue",
+			Arial,
+			"Noto Sans",
+			sans-serif,
+			"Apple Color Emoji",
+			"Segoe UI Emoji",
+			"Segoe UI Symbol",
+			"Noto Color Emoji";
+	}
 }
 
 html[data-font-size="large"] {
-  font-size: x-large;
+	font-size: x-large;
 }
 
 html[data-contrast="high"] {
-  --color-primary: rgb(0, 0, 0);
-  --color-text: rgba(255, 255, 255, 0.85);
-  --color-background: rgb(0, 0, 0);
-  --color-text-anchor: #ff8000;
-  --color-text-anchor-hover: rgb(122, 255, 82);
-  --color-text-anchor-visited: #ff71db;
+	--color-primary: rgb(0, 0, 0);
+	--color-text: rgba(255, 255, 255, 0.85);
+	--color-background: rgb(0, 0, 0);
+	--color-text-anchor: #f9690e;
+	--color-text-anchor-hover: #c8f7c5;
+	--color-text-anchor-visited: #fde3a7;
 }
 
 body {
-  background-color: var(--color-background);
-  color: var(--color-text);
+	background-color: var(--color-background);
+	color: var(--color-text);
 }
 
 body > header > a {
-  position: absolute;
-  top: auto;
-  display: inline;
-  height: 0.25rem;
-  width: 0.25rem;
-  left: -10000px;
+	position: absolute;
+	top: auto;
+	display: inline;
+	height: 0.25rem;
+	width: 0.25rem;
+	left: -10000px;
 }
 
 body > header > a:focus {
-  position: static;
-  height: auto;
-  width: auto;
+	position: static;
+	height: auto;
+	width: auto;
 }
 
 body > header {
-  width: 100%;
+	width: 100%;
 }
 
 body > header > nav {
-  background-color: var(--color-primary);
-  width: 100%;
-  padding-top: 1rem;
-  padding-bottom: 1rem;
+	background-color: var(--color-primary);
+	width: 100%;
+	padding-top: 1rem;
+	padding-bottom: 1rem;
 }
 
 body > header > nav > ul {
-  margin-left: auto;
-  margin-right: auto;
-  display: flex;
-  width: 83.333333%;
-  list-style-position: inside;
-  list-style-type: none;
-  flex-direction: column;
+	margin-left: auto;
+	margin-right: auto;
+	display: flex;
+	width: 83.333333%;
+	list-style-position: inside;
+	list-style-type: none;
+	flex-direction: column;
 }
 
 @media (min-width: 768px) {
-  body > header > nav > ul {
-    width: 100%;
-    flex-direction: row;
-  }
+	body > header > nav > ul {
+		width: 100%;
+		flex-direction: row;
+	}
 }
 
 body > header > nav > ul li {
-  display: flex;
-  flex-grow: 1;
-  align-content: center;
-  justify-content: flex-start;
+	display: flex;
+	flex-grow: 1;
+	align-content: center;
+	justify-content: flex-start;
 }
 
 @media (min-width: 768px) {
-  body > header > nav > ul li {
-    justify-content: center;
-  }
+	body > header > nav > ul li {
+		justify-content: center;
+	}
 }
 
 body > header figure {
-  width: 100%;
+	width: 100%;
 }
 
 body > header figure img {
-  height: 15rem;
-  width: 100%;
-  -o-object-fit: cover;
-     object-fit: cover;
+	height: 15rem;
+	width: 100%;
+	-o-object-fit: cover;
+	object-fit: cover;
 }
 
 body > header figure figcaption {
-  margin-left: auto;
-  margin-right: auto;
-  width: 83.333333%;
+	margin-left: auto;
+	margin-right: auto;
+	width: 83.333333%;
 }
 
 @media (min-width: 768px) {
-  body > header figure figcaption {
-    width: 66.666667%;
-  }
+	body > header figure figcaption {
+		width: 66.666667%;
+	}
 }
 
 @media (min-width: 1024px) {
-  body > header figure figcaption {
-    width: 50%;
-  }
+	body > header figure figcaption {
+		width: 50%;
+	}
 }
 
 @media print {
-  main {
-    width: 83.333333%;
-  }
+	main {
+		width: 83.333333%;
+	}
 
-  main button {
-    display: none;
-  }
+	main button {
+		display: none;
+	}
 
-  footer {
-    width: 83.333333%;
-  }
+	footer {
+		width: 83.333333%;
+	}
 }
 
 main {
-  margin-left: auto;
-  margin-right: auto;
-  width: 83.333333%;
+	margin-left: auto;
+	margin-right: auto;
+	width: 83.333333%;
 }
 
 @media (min-width: 768px) {
-  main {
-    width: 66.666667%;
-  }
+	main {
+		width: 66.666667%;
+	}
 }
 
 @media (min-width: 1024px) {
-  main {
-    width: 50%;
-  }
+	main {
+		width: 50%;
+	}
 }
 
 figure {
-  margin-left: auto;
-  margin-right: auto;
-  width: 83.333333%;
+	margin-left: auto;
+	margin-right: auto;
+	width: 83.333333%;
 }
 
 figure iframe[src*="youtube"] {
-  aspect-ratio: 16 / 9;
-  width: 100%;
+	aspect-ratio: 16 / 9;
+	width: 100%;
 }
 
 footer {
-  margin-left: auto;
-  margin-right: auto;
-  margin-top: 1rem;
-  margin-bottom: 1rem;
-  width: 83.333333%;
-  border-top-width: 1px;
-  padding-top: 0.5rem;
+	margin-left: auto;
+	margin-right: auto;
+	margin-top: 1rem;
+	margin-bottom: 1rem;
+	width: 83.333333%;
+	border-top-width: 1px;
+	padding-top: 0.5rem;
 }
 
 @media (min-width: 768px) {
-  footer {
-    width: 66.666667%;
-  }
+	footer {
+		width: 66.666667%;
+	}
 }
 
 @media (min-width: 1024px) {
-  footer {
-    width: 50%;
-  }
+	footer {
+		width: 50%;
+	}
 }
 
 table {
-  table-layout: auto;
+	table-layout: auto;
 }
 
 th,
 td {
-  border-color: var(--color-text);
-  border-width: 1px;
-  padding-top: 0.5rem;
-  padding-bottom: 0.5rem;
-  padding-left: 1rem;
-  padding-right: 1rem;
-  text-align: left;
+	border-color: var(--color-text);
+	border-width: 1px;
+	padding-top: 0.5rem;
+	padding-bottom: 0.5rem;
+	padding-left: 1rem;
+	padding-right: 1rem;
+	text-align: left;
 }
 
 caption {
-  padding-top: 0.5rem;
-  padding-bottom: 0.5rem;
-  text-align: left;
+	padding-top: 0.5rem;
+	padding-bottom: 0.5rem;
+	text-align: left;
 }
 
 h1,
@@ -746,12 +678,12 @@ h3,
 h4,
 h5,
 h6 {
-  margin-top: 0.5rem;
-  margin-bottom: 0.5rem;
-  padding-top: 0.5rem;
-  padding-bottom: 0.5rem;
-  font-weight: 700;
-  text-transform: capitalize;
+	margin-top: 0.5rem;
+	margin-bottom: 0.5rem;
+	padding-top: 0.5rem;
+	padding-bottom: 0.5rem;
+	font-weight: 700;
+	text-transform: capitalize;
 }
 
 h2,
@@ -759,165 +691,167 @@ h3,
 h4,
 h5,
 h6 {
-  border-bottom-width: 1px;
+	border-bottom-width: 1px;
 }
 
 h1 {
-  font-size: 1.875rem;
-  line-height: 2.25rem;
+	font-size: 1.875rem;
+	line-height: 2.25rem;
 }
 
 h2 {
-  font-size: 1.5rem;
-  line-height: 2rem;
+	font-size: 1.5rem;
+	line-height: 2rem;
 }
 
 h3 {
-  font-size: 1.25rem;
-  line-height: 1.75rem;
+	font-size: 1.25rem;
+	line-height: 1.75rem;
 }
 
 a {
-  text-decoration-line: underline;
-  color: var(--color-text-anchor);
+	text-decoration-line: underline;
+	color: var(--color-text-anchor);
 }
 
 a:hover {
-  color: var(--color-text-anchor-hover);
+	color: var(--color-text-anchor-hover);
 }
 
 a:visited {
-  color: var(--color-text-anchor-visited);
+	color: var(--color-text-anchor-visited);
 }
 
 a:visited:hover {
-  color: var(--color-text-anchor-hover);
+	color: var(--color-text-anchor-hover);
 }
 
 blockquote {
-  font-family: ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, "Liberation Mono", "Courier New", monospace;
+	font-family: ui-monospace, SFMono-Regular, Menlo,
+		Monaco, Consolas, "Liberation Mono",
+		"Courier New", monospace;
 }
 
 blockquote::before,
 blockquote::after {
-  content: '"';
-  background-image: linear-gradient(
+	content: '"';
+	background-image: linear-gradient(
 		var(--color-background),
 		var(--color-background)
 	);
 }
 
 button {
-  border-color: var(--color-text);
-  background-color: var(--color-background);
-  margin-top: 0.5rem;
-  margin-bottom: 0.5rem;
-  display: block;
-  border-radius: 0.375rem;
-  border-width: 1px;
-  padding-left: 1rem;
-  padding-right: 1rem;
-  padding-top: 0.25rem;
-  padding-bottom: 0.25rem;
+	border-color: var(--color-text);
+	background-color: var(--color-background);
+	margin-top: 0.5rem;
+	margin-bottom: 0.5rem;
+	display: block;
+	border-radius: 0.375rem;
+	border-width: 1px;
+	padding-left: 1rem;
+	padding-right: 1rem;
+	padding-top: 0.25rem;
+	padding-bottom: 0.25rem;
 }
 
 button:hover {
-  color: var(--color-background);
-  background-color: var(--color-text);
+	color: var(--color-background);
+	background-color: var(--color-text);
 }
 
 p {
-  max-width: 65ch;
-  padding-top: 0.5rem;
-  padding-bottom: 0.5rem;
+	max-width: 65ch;
+	padding-top: 0.5rem;
+	padding-bottom: 0.5rem;
 }
 
 form {
-  margin-top: 1rem;
-  margin-bottom: 1rem;
-  display: block;
-  width: 100%;
+	margin-top: 1rem;
+	margin-bottom: 1rem;
+	display: block;
+	width: 100%;
 }
 
 @media (min-width: 768px) {
-  form {
-    width: 66.666667%;
-  }
+	form {
+		width: 66.666667%;
+	}
 }
 
 form > div {
-  margin-top: 1rem;
-  margin-bottom: 1rem;
-  display: block;
+	margin-top: 1rem;
+	margin-bottom: 1rem;
+	display: block;
 }
 
 label {
-  display: block;
-  padding-top: 0.25rem;
-  padding-bottom: 0.25rem;
+	display: block;
+	padding-top: 0.25rem;
+	padding-bottom: 0.25rem;
 }
 
 input[type="email"],
 textarea {
-  border-color: var(--color-text);
-  background-color: var(--color-background);
-  display: block;
-  width: 100%;
-  border-width: 1px;
-  padding: 0.25rem;
+	border-color: var(--color-text);
+	background-color: var(--color-background);
+	display: block;
+	width: 100%;
+	border-width: 1px;
+	padding: 0.25rem;
 }
 
 fieldset {
-  border-color: var(--color-text);
-  margin-top: 1rem;
-  margin-bottom: 1rem;
-  width: 100%;
+	border-color: var(--color-text);
+	margin-top: 1rem;
+	margin-bottom: 1rem;
+	width: 100%;
 }
 
 fieldset div {
-  display: flex;
-  padding-left: 1rem;
-  padding-right: 1rem;
-  padding-top: 0.5rem;
-  padding-bottom: 0.5rem;
+	display: flex;
+	padding-left: 1rem;
+	padding-right: 1rem;
+	padding-top: 0.5rem;
+	padding-bottom: 0.5rem;
 }
 
 fieldset label {
-  flex-grow: 1;
-  padding: 0px;
-  padding-left: 1rem;
+	flex-grow: 1;
+	padding: 0px;
+	padding-left: 1rem;
 }
 
 form button {
-  display: inline-block;
+	display: inline-block;
 }
 
 svg {
-  color: inherit;
+	color: inherit;
 }
 
 #style_switcher_container {
-  position: fixed;
-  bottom: 1rem;
-  right: 1rem;
-  display: flex;
-  flex-direction: row;
+	position: fixed;
+	bottom: 1rem;
+	right: 1rem;
+	display: flex;
+	flex-direction: row;
 }
 
 @media (min-width: 640px) {
-  #style_switcher_container {
-    flex-direction: column;
-  }
+	#style_switcher_container {
+		flex-direction: column;
+	}
 }
 
 #style_switcher_container button {
-  color: var(--color-text);
-  margin: 0.25rem;
-  height: 2.5rem;
-  width: 2.5rem;
-  padding: 0.25rem;
+	color: var(--color-text);
+	margin: 0.25rem;
+	height: 2.5rem;
+	width: 2.5rem;
+	padding: 0.25rem;
 }
 
 #style_switcher_container button:hover {
-  color: var(--color-background);
+	color: var(--color-background);
 }
