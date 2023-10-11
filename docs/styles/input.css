@@ -2,10 +2,6 @@
 @import "tailwindcss/utilities";
 @import "tailwindcss/components";
 
-/* @import "./header.css";
-@import "./main.css";
-@import "./footer.css"; */
-
 html {
 	font-size: medium;
 	--color-primary: hsl(0, 0%, 100%);
@@ -204,8 +200,7 @@ label {
 input[type="email"],
 textarea {
 	border-color: var(--color-text);
-	background-color: var(--color-text);
-	color: var(--color-background);
+	background-color: var(--color-background);
 	@apply block border w-full p-1;
 }
 
