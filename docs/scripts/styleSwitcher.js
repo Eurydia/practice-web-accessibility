@@ -31,8 +31,7 @@ const updateButtonText = (selector, text) => {
 	if (buttonElement === null) {
 		return;
 	}
-
-	buttonElement.innerHTML = text;
+	buttonElement.setAttribute("title", text);
 };
 
 const switchContrast = () => {

@@ -61,12 +61,12 @@
 			</nav>
 			<figure>
 				<a
-					href="images/sr2_slimes.png"
+					href="media/images/sr2_slimes.png"
 					target="_blank"
 				>
 					<img
 						alt="A group of slimes stacked on top of one another."
-						src="images/sr2_slimes.png"
+						src="media/images/sr2_slimes.png"
 					/>
 				</a>
 				<figcaption>
@@ -77,6 +77,40 @@
 				</figcaption>
 			</figure>
 		</header>
+		<div id="style_switcher_container">
+			<button
+				onclick="switchContrast();"
+				id="button_switch_contrast"
+				title="Use high contrast mode"
+			>
+				<svg
+					xmlns="http://www.w3.org/2000/svg"
+					viewBox="0 0 512 512"
+				>
+					<!--! Font Awesome Pro 6.4.2 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license (Commercial License) Copyright 2023 Fonticons, Inc. -->
+					<path
+						fill="currentColor"
+						d="M448 256c0-106-86-192-192-192V448c106 0 192-86 192-192zM0 256a256 256 0 1 1 512 0A256 256 0 1 1 0 256z"
+					/>
+				</svg>
+			</button>
+			<button
+				onclick="switchFontSize();"
+				id="button_switch_font_size"
+				title="Use large text mode"
+			>
+				<svg
+					xmlns="http://www.w3.org/2000/svg"
+					viewBox="0 0 512 512"
+				>
+					<!--! Font Awesome Pro 6.4.2 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license (Commercial License) Copyright 2023 Fonticons, Inc. -->
+					<path
+						fill="currentColor"
+						d="M416 208c0 45.9-14.9 88.3-40 122.7L502.6 457.4c12.5 12.5 12.5 32.8 0 45.3s-32.8 12.5-45.3 0L330.7 376c-34.4 25.2-76.8 40-122.7 40C93.1 416 0 322.9 0 208S93.1 0 208 0S416 93.1 416 208zM208 352a144 144 0 1 0 0-288 144 144 0 1 0 0 288z"
+					/>
+				</svg>
+			</button>
+		</div>
 		<main id="main_content">
 			<article>
 				<header>
@@ -92,14 +126,6 @@
 							4 October 2023
 						</time>
 					</p>
-					<button
-						onclick="switchContrast();"
-						id="button_switch_contrast"
-					></button>
-					<button
-						onclick="switchFontSize();"
-						id="button_switch_font_size"
-					></button>
 				</header>
 				<section>
 					<h2>Residents of the Far, Far Range</h2>
@@ -113,7 +139,7 @@
 					</p>
 					<figure>
 						<img
-							src="images/sr2_slime_various.png"
+							src="media/images/sr2_slime_various.png"
 							alt="Various species of slimes found on the Far, Far Range."
 						/>
 						<figcaption>
@@ -149,7 +175,7 @@
 
 					<figure>
 						<img
-							src="images/sr2_hungry_rock_slime.png"
+							src="media/images/sr2_hungry_rock_slime.png"
 							alt="A wild encounter with a hungry Rock Slime."
 						/>
 						<figcaption>
@@ -187,7 +213,7 @@
 
 					<figure>
 						<img
-							src="images/sr2_pink_slime.png"
+							src="media/images/sr2_pink_slime.png"
 							alt="A lone Pink Slime found in Rainbow Field."
 						/>
 						<figcaption>
@@ -213,25 +239,27 @@
 						</caption>
 						<thead>
 							<tr>
-								<th>Characteristics</th>
-								<th>Details</th>
+								<th scope="col">
+									Characteristics
+								</th>
+								<th scope="col">Details</th>
 							</tr>
 						</thead>
 						<tbody>
 							<tr>
-								<th>Diet</th>
+								<th scope="row">Diet</th>
 								<td>Omnivore</td>
 							</tr>
 							<tr>
-								<th>Favorite Food</th>
+								<th scope="row">Favorite Food</th>
 								<td>None</td>
 							</tr>
 							<tr>
-								<th>Favorite Toy</th>
+								<th scope="row">Favorite Toy</th>
 								<td>Beach Ball</td>
 							</tr>
 							<tr>
-								<th>Behavior</th>
+								<th scope="row">Behavior</th>
 								<td>Docile</td>
 							</tr>
 						</tbody>
@@ -266,7 +294,7 @@
 					<figure>
 						<img
 							alt="A Honey Slime after eating a Mint Mango."
-							src="images/sr2_honey_slime.png"
+							src="media/images/sr2_honey_slime.png"
 						/>
 						<figcaption>
 							<p>
@@ -294,25 +322,27 @@
 						</caption>
 						<thead>
 							<tr>
-								<th>Characteristics</th>
-								<th>Details</th>
+								<th scope="col">
+									Characteristics
+								</th>
+								<th scope="col">Details</th>
 							</tr>
 						</thead>
 						<tbody>
 							<tr>
-								<th>Diet</th>
+								<th scope="row">Diet</th>
 								<td>Fruits</td>
 							</tr>
 							<tr>
-								<th>Favorite Food</th>
+								<th scope="row">Favorite Food</th>
 								<td>Mint Mango</td>
 							</tr>
 							<tr>
-								<th>Favorite Toy</th>
+								<th scope="row">Favorite Toy</th>
 								<td>Buzz Bee</td>
 							</tr>
 							<tr>
-								<th>Behavoir</th>
+								<th scope="row">Behavoir</th>
 								<td>Decoile</td>
 							</tr>
 						</tbody>
@@ -348,7 +378,7 @@
 
 					<figure>
 						<img
-							src="images/sr2_puddle_slime.png"
+							src="media/images/sr2_puddle_slime.png"
 							alt="A pair of Puddle Slimes relaxing in a small pond."
 						/>
 						<figcaption>
@@ -374,25 +404,27 @@
 						</caption>
 						<thead>
 							<tr>
-								<th>Characteristics</th>
-								<th>Details</th>
+								<th scope="col">
+									Characteristics
+								</th>
+								<th scope="col">Details</th>
 							</tr>
 						</thead>
 						<tbody>
 							<tr>
-								<th>Diet</th>
+								<th scope="row">Diet</th>
 								<td>None</td>
 							</tr>
 							<tr>
-								<th>Favorite Food</th>
+								<th scope="row">Favorite Food</th>
 								<td>None</td>
 							</tr>
 							<tr>
-								<th>Favorite Toy</th>
+								<th scope="row">Favorite Toy</th>
 								<td>Ruber Ducky</td>
 							</tr>
 							<tr>
-								<th>Behavoir</th>
+								<th scope="row">Behavoir</th>
 								<td>Decoile</td>
 							</tr>
 						</tbody>

@@ -58,7 +58,7 @@ body > header > nav > ul {
 }
 
 body > header > nav > ul li {
-	@apply flex-grow flex justify-start md:justify-center;
+	@apply flex-grow flex justify-start md:justify-center content-center;
 }
 
 body > header figure {
@@ -176,7 +176,8 @@ blockquote::after {
 
 button {
 	border-color: var(--color-text);
-	@apply my-2 px-4 py-1 block border;
+	background-color: var(--color-background);
+	@apply my-2 px-4 py-1 block border rounded-md;
 }
 
 button:hover {
@@ -203,7 +204,9 @@ label {
 input[type="email"],
 textarea {
 	border-color: var(--color-text);
-	@apply block border w-full;
+	background-color: var(--color-text);
+	color: var(--color-background);
+	@apply block border w-full p-1;
 }
 
 fieldset {
@@ -221,4 +224,22 @@ fieldset label {
 
 form button {
 	@apply inline-block;
+}
+
+svg {
+	@apply text-inherit;
+}
+
+#style_switcher_container {
+	@apply fixed bottom-4 right-4 flex flex-row sm:flex-col;
+}
+
+#style_switcher_container button {
+	color: var(--color-text);
+	@apply w-10 h-10 p-1
+		m-1;
+}
+
+#style_switcher_container button:hover {
+	color: var(--color-background);
 }

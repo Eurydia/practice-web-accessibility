@@ -54,11 +54,11 @@
 			</nav>
 			<figure>
 				<a
-					href="images/sr2_fruits_and_vegetables.png"
+					href="media/images/sr2_fruits_and_vegetables.png"
 					target="_blank"
 				>
 					<img
-						src="images/sr2_fruits_and_vegetables.png"
+						src="media/images/sr2_fruits_and_vegetables.png"
 						alt="From top to bottom, a Mint Mango, a Cubeberry, and a Water Cabbage laying on the ground."
 					/>
 				</a>
@@ -71,6 +71,40 @@
 				</figcaption>
 			</figure>
 		</header>
+		<div id="style_switcher_container">
+			<button
+				onclick="switchContrast();"
+				id="button_switch_contrast"
+				title="Use high contrast mode"
+			>
+				<svg
+					xmlns="http://www.w3.org/2000/svg"
+					viewBox="0 0 512 512"
+				>
+					<!--! Font Awesome Pro 6.4.2 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license (Commercial License) Copyright 2023 Fonticons, Inc. -->
+					<path
+						fill="currentColor"
+						d="M448 256c0-106-86-192-192-192V448c106 0 192-86 192-192zM0 256a256 256 0 1 1 512 0A256 256 0 1 1 0 256z"
+					/>
+				</svg>
+			</button>
+			<button
+				onclick="switchFontSize();"
+				id="button_switch_font_size"
+				title="Use large text mode"
+			>
+				<svg
+					xmlns="http://www.w3.org/2000/svg"
+					viewBox="0 0 512 512"
+				>
+					<!--! Font Awesome Pro 6.4.2 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license (Commercial License) Copyright 2023 Fonticons, Inc. -->
+					<path
+						fill="currentColor"
+						d="M416 208c0 45.9-14.9 88.3-40 122.7L502.6 457.4c12.5 12.5 12.5 32.8 0 45.3s-32.8 12.5-45.3 0L330.7 376c-34.4 25.2-76.8 40-122.7 40C93.1 416 0 322.9 0 208S93.1 0 208 0S416 93.1 416 208zM208 352a144 144 0 1 0 0-288 144 144 0 1 0 0 288z"
+					/>
+				</svg>
+			</button>
+		</div>
 		<main id="main_content">
 			<article>
 				<header>
@@ -86,25 +120,13 @@
 							4 October 2023
 						</time>
 					</p>
-					<button
-						onclick="switchContrast();"
-						id="button_switch_contrast"
-					>
-						Use high contrast style
-					</button>
-					<button
-						onclick="switchFontSize();"
-						id="button_switch_font_size"
-					>
-						Use large font
-					</button>
 				</header>
 				<section>
 					<h2>Hunger Management</h2>
 
 					<figure>
 						<img
-							src="images/sr2_hungry_rock_slime.png"
+							src="media/images/sr2_hungry_rock_slime.png"
 							alt="A wild encounter with a hungry Rock Slime."
 						/>
 						<figcaption>
@@ -173,7 +195,7 @@
 					<h3>Mint Mango</h3>
 					<figure>
 						<img
-							src="images/sr2_mint_mango_tree.png"
+							src="media/images/sr2_mint_mango_tree.png"
 							alt="A fully grown Mint Mango tree."
 						/>
 						<figcaption>
@@ -216,7 +238,7 @@
 					<h3>Heart beet</h3>
 					<figure>
 						<img
-							src="images/sr2_heart_beet_patch.png"
+							src="media/images/sr2_heart_beet_patch.png"
 							alt="A patch of wild Heart Beets found in Starlight Strand."
 						/>
 						<figcaption>
@@ -283,7 +305,7 @@
 					<h3>Stony Hen</h3>
 					<figure>
 						<img
-							src="images/sr2_stony_hen.png"
+							src="media/images/sr2_stony_hen.png"
 							alt="A domesticated Stony Hen inside a coop."
 						/>
 						<figcaption>
