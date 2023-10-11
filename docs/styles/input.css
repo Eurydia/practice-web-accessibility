@@ -7,9 +7,9 @@ html {
 	--color-primary: hsl(0, 0%, 100%);
 	--color-text: hsl(0, 0%, 0%);
 	--color-background: hsl(0, 0%, 100%);
-	--color-text-anchor: hsl(199, 92%, 70%);
-	--color-text-anchor-hover: #9b59b6;
-	--color-text-anchor-visited: #205d86;
+	--color-text-anchor: #7800e0;
+	--color-text-anchor-hover: #005c00;
+	--color-text-anchor-visited: #0000ff;
 	@apply font-serif sm:font-sans;
 }
 
