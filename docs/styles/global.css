@@ -543,9 +543,9 @@ html {
   --color-primary: hsl(0, 0%, 100%);
   --color-text: hsl(0, 0%, 0%);
   --color-background: hsl(0, 0%, 100%);
-  --color-text-anchor: #008fd2;
-  --color-text-anchor-hover: rgb(171, 71, 188);
-  --color-text-anchor-visited: #001aff;
+  --color-text-anchor: #6cccf9;
+  --color-text-anchor-hover: rgb(206, 91, 226);
+  --color-text-anchor-visited: #ff00b3;
   font-family: ui-serif, Georgia, Cambria, "Times New Roman", Times, serif;
 }
 
@@ -565,7 +565,7 @@ html[data-contrast="high"] {
   --color-background: rgb(0, 0, 0);
   --color-text-anchor: #ff8000;
   --color-text-anchor-hover: rgb(122, 255, 82);
-  --color-text-anchor-visited: #ffc671;
+  --color-text-anchor-visited: #ff71db;
 }
 
 body {
