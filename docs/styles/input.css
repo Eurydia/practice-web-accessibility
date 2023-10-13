@@ -57,6 +57,10 @@ body > header > nav > ul li {
 	@apply flex-grow flex justify-start md:justify-center content-center;
 }
 
+body > header > nav > ul li a {
+	@apply p-4 sm:p-0;
+}
+
 body > header figure {
 	@apply w-full;
 }

@@ -557,6 +557,16 @@ body > header > nav > ul li {
 	}
 }
 
+body > header > nav > ul li a {
+	padding: 1rem;
+}
+
+@media (min-width: 640px) {
+	body > header > nav > ul li a {
+		padding: 0px;
+	}
+}
+
 body > header figure {
 	width: 100%;
 }
