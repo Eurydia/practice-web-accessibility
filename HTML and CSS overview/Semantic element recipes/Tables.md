@@ -1,28 +1,37 @@
 # Tables
 
 > [!cite] Citation
+> 
 > - [HTML specification](https://html.spec.whatwg.org/multipage/tables.html)
 > - [MDN documentation](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/table)
 
-## Recipes
+## Common practices
 
-Every table shown here will have a `caption` element, a `thead`, and a `tbody` element with minor differences.
+### Adding collapsible caption
 
-They can be categorized using a few characteristics:
+A `details` element and a `summary` element may be placed in the `caption` element of a table to provide a collapsible caption.
 
-**Adding collapsible caption**
+The practice of placing a `details` and a `summary` element in a `caption` element is demonstrated in HTML specification.
 
-A `details` element and a `summary` element can be placed in the `caption` element of a table to provide a collapsible caption.
+An example is given on [4.9.1.1 Techniques for describing tables (HTML  specification)](https://html.spec.whatwg.org/multipage/tables.html#table-descriptions-techniques) section.
 
-**Adding header column**
+### Adding header column
 
 A `th` element may be added as the first child of `tr` elements in `tbody`, which create a header column.
 
-Note that the top-left header cell does not need to be filled in.
+In such tables, the top-left header cell is left empty.
 
-**Omitting footer**
+This example is shown in [4.9.2 The caption element (HTML specification)](https://html.spec.whatwg.org/multipage/tables.html#the-caption-element) section.
 
-The `tfoot` element of a table may be omitted.
+### Omitting footer
+
+A table may omit its `tfoot` element if it does not need summary rows for its column.
+
+Through out the [HTML specification](https://html.spec.whatwg.org/multipage/tables.html) many examples omit the footer.
+
+## Recipes
+
+Every table shown here have a `caption` element, a `thead`, and a `tbody` element.
 
 ### Typical table
 
@@ -30,13 +39,6 @@ This table consists of a `caption` element, a `thead` element, a `tbody` element
 It has a header row and a header column.
 
 Since this table has a header row and a header column, the top left header cell should be left empty.
-
-See a working example on CodePen: [CodePen example](https://codepen.io/Eurydia/pen/eYboRXB)
-
-> [!Note] Additional variants
-> 
-> Note that the `details` element and `summary` element may be placed in `caption` element to provide a collapsible table caption.
-> And `tfoot` may be omitted.
 
 ```html
 <table>
@@ -85,14 +87,7 @@ See a working example on CodePen: [CodePen example](https://codepen.io/Eurydia/p
 
 ### Typical table without a header column
 
-This variation of the [[#Typical table]] does not have a header column.
-
-See a working example on CodePen: [CodePen example](https://codepen.io/Eurydia/pen/PoXgjXV)
-
-> [!Note] Additional variants
-> 
-> Note that the `details` element and `summary` element may be placed in `caption` element to provide a collapsible table caption.
-> And `tfoot` may be omitted.
+This table consists of a `caption` element, a `thead` element, a `tbody` element, and a `tfooter` element. It has a header row but it does not have a header column.
 
 ```html
 <table>

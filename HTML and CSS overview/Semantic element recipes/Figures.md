@@ -1,22 +1,22 @@
 # Figures
 
 > [!cite] Sources
-> - [HTML specification](https://html.spec.whatwg.org/multipage/grouping-content.html#the-figure-element)
-> - [MDN documentation](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/figure)
+> 
+> - [figure element (HTML specification)](https://html.spec.whatwg.org/multipage/grouping-content.html#the-figure-element)
+> - [figure element (MDN dics)](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/figure)
+
+## Common practices
+
+### Order of media and caption
+
+The `figcaption` element of a `figure` element may be placed before or after the media.
 
 ## Recipes
-
-Figures are used to encapsulate media contents by providing captions.
-Such medias are: images, videos, and audios.
-
-Figures may be used to encapsulate quotations and poems as well.
-
-Note that the `figcaption` element can be placed before and after the media content.
-Both are valid.
 
 ### Image figure
 
 A figure with an image followed by a caption.
+See [[Images]] for addition recipes.
 
 ```html
 <figure>
@@ -28,13 +28,11 @@ A figure with an image followed by a caption.
 ### Video figure
 
 A figure with a video followed by a caption.
+See [[Videos]] for additional recipes.
 
 ```html
 <figure>
-	<video controls poster="">
-		<source type="" src=""/>
-		<track kind="" src="" srclang="" label="" />
-	</video>
+	<video></video>
 	<figcaption></figcaption>
 </figure>
 ```
@@ -45,10 +43,19 @@ A figure with an audio followed by a caption.
 
 ```html
 <figure>
-	<audio controls>
-		<source type="" src=""/>
-		<track kind="" src="" srclang="" label="">
-	</audio>
+	<audio></audio>
+	<figcaption></figcaption>
+</figure>
+```
+
+### Table figure
+
+A figure with a table followed by a caption.
+See [[Tables]] for additional recipes.
+
+```html
+<figure>
+	<table></table>
 	<figcaption></figcaption>
 </figure>
 ```
