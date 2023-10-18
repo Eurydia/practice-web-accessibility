@@ -10,7 +10,7 @@ html {
 	--color-text-anchor: #7800e0;
 	--color-text-anchor-hover: #005c00;
 	--color-text-anchor-visited: #0000ff;
-	@apply font-serif sm:font-sans;
+	@apply font-serif md:font-sans;
 }
 
 html[data-font-size="large"] {
@@ -58,7 +58,7 @@ body > header > nav > ul li {
 }
 
 body > header > nav > ul li a {
-	@apply p-4 sm:p-0;
+	@apply p-4 md:p-0;
 }
 
 body > header figure {
@@ -234,7 +234,7 @@ svg {
 }
 
 #style_switcher_container {
-	@apply fixed bottom-4 right-4 flex flex-row sm:flex-col;
+	@apply fixed bottom-4 right-4 flex flex-row md:flex-col;
 }
 
 #style_switcher_container button {

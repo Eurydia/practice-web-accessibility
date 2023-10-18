@@ -70,13 +70,23 @@
 			</nav>
 			<figure>
 				<a
-					href="media/images/sr2_title_screen.jpg"
+					href="media/images/sr2_title_screen_w2160px.png"
 					target="_blank"
 				>
-					<img
-						alt="Title screen of Slime Rancher 2."
-						src="./media/images/sr2_title_screen.jpg"
-					/>
+					<picture>
+						<source
+							src="media/images/sr2_title_screen_w1080px.png"
+							media="media(min-width: 768px)"
+						/>
+						<source
+							src="media/images/sr2_title_screen_w2180px.png"
+							media="media(min-width: 1024px)"
+						/>
+						<img
+							alt="Title screen of Slime Rancher 2."
+							src="./media/images/sr2_title_screen_w720px.png"
+						/>
+					</picture>
 				</a>
 				<figcaption>
 					<p>Title screen of Slime Rancher 2.</p>
